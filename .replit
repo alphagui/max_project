@@ -1,0 +1,3 @@
+run = "streamlit run app.py"
+modules = ["python-3.10"]
+entrypoint = "app.py"
