@@ -59,24 +59,3 @@ def find_max_value(numbers):
     return max_value, max_expression
 
 
-# Example usage
-def main():
-    # Get input from user
-    print("Enter 5 numbers separated by spaces:")
-    numbers = list(map(int, input().split()))
-
-    if len(numbers) != 5:
-        print("Please enter exactly 5 numbers.")
-        return
-
-    max_value, max_expression = find_max_value(numbers)
-
-    if max_value > 0:
-        print(f"Maximum value less than or equal to 100: {max_value}")
-        print(f"Expression: {max_expression}")
-    else:
-        print("No valid expression found that results in a value between 0 and 100.")
-
-
-if __name__ == "__main__":
-    main()
